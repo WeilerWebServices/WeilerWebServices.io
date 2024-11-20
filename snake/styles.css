@@ -1,42 +1,41 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-Box;
+	box-sizing: border-Box;
 }
 
 body {
-  background-color: #000;
+	background-color: #000;
 }
 
 #cage {
-  margin: 0 auto;
-  background-color: #000000;
-  border: 1vh solid #16324c;
-  height: 80vh;
-  width:  80vh;
-  position: relative;
-
+	margin: 0 auto;
+	background-color: #000000;
+	border: 1vh solid #16324c;
+	height: 80vh;
+	width: 80vh;
+	position: relative;
 }
 
 .snakeBody {
-  background-color: #34de00;
-  position: absolute;
-  border-radius: 25%;
+	background-color: #34de00;
+	position: absolute;
+	border-radius: 25%;
 }
 
 #square {
-  background-color: #fd0101;
-  position: absolute;
-  border-radius: 25%;
+	background-color: #fd0101;
+	position: absolute;
+	border-radius: 25%;
 }
 
 #score {
-  position: absolute;
-  color: grey;
-  border: 0.5rem outset #f8b311;
-  bottom: 1rem;
-  left: 3rem;
-  font-size: 2rem;
+	position: absolute;
+	color: grey;
+	border: 0.5rem outset #f8b311;
+	bottom: 1rem;
+	left: 3rem;
+	font-size: 2rem;
 }
 
 #reset {
@@ -51,10 +50,10 @@ body {
 	font-weight: bold;
 	padding: 0.75rem 1rem;
 	text-decoration: none;
-	text-shadow: 0 .2rem 0 #ffffff;
-  position: absolute;
-  bottom: 1rem;
-  right: 3rem;
+	text-shadow: 0 0.2rem 0 #ffffff;
+	position: absolute;
+	bottom: 1rem;
+	right: 3rem;
 }
 
 #reset:hover {
@@ -63,16 +62,16 @@ body {
 }
 
 #reset:focus {
-  outline: 0;
+	outline: 0;
 }
 
 .die ~ * {
-  display: none;
+	display: none;
 }
 .die {
-  margin: 12rem auto;
-  color: grey;
-  text-align: center;
-  font-size: 5rem;
-  width: 23rem;
+	margin: 12rem auto;
+	color: grey;
+	text-align: center;
+	font-size: 5rem;
+	width: 23rem;
 }
